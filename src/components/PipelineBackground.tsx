@@ -8,7 +8,7 @@ export default function PipelineBackground() {
   const hostRef = useRef<HTMLDivElement | null>(null)
 
   useEffect(() => {
-    const pipeCount = 80
+    const pipeCount = 40
     const pipePropCount = 8
     const pipePropsLength = pipeCount * pipePropCount
     const turnCount = 8
@@ -17,7 +17,7 @@ export default function PipelineBackground() {
     const TAU = Math.PI * 2
     const turnAmount = (360 / turnCount) * TO_RAD
     const turnChanceRange = 58
-    const baseSpeed = 0.5
+    const baseSpeed = 1.5
     const rangeSpeed = 1
     const baseWidth = 2
     const rangeWidth = 4
@@ -31,7 +31,7 @@ export default function PipelineBackground() {
     const frameInterval = 1000 / targetFps
     const lifeStep = baseFrameRate / targetFps
     const maxTrailLength = 600
-    const blurStrength = 6
+    const blurStrength = 1
     const maxPixelRatio = 1.5
     const resolutionScale = 0.85
 

@@ -8,38 +8,37 @@ type Project = {
 
 const projects: Project[] = [
   {
-    title: 'Project Atlas',
-    description: 'Full‑stack web app with authentication, dashboards, and REST APIs.',
-    tags: ['React', 'TypeScript', 'Node.js'],
-    link: '#',
+    title: 'Tutoring Application',
+    description: 'Fullstack mobile app with authentication, dashboards, and admin monitoring.',
+    tags: ['React Native', 'Javascript', 'SQL'],
     repo: '#',
   },
   {
-    title: 'DevOps Pipelines',
-    description: 'CI/CD pipeline with automated testing and deployments.',
-    tags: ['GitHub Actions', 'Docker', 'Vite'],
-    link: '#',
+    title: 'Movie Rental Application',
+    description: 'Utilizes SQL, allowing customers to rent and return copies of movies.',
+    tags: ['C#', 'MSSQL'],
+    repo: '#',
   },
   {
-    title: 'Realtime Chat',
-    description: 'WebSocket-powered realtime chat with presence and typing indicators.',
-    tags: ['WebSocket', 'React', 'Express'],
+    title: 'Secure Email Client/Server',
+    description: 'Client/server mail transfer system in Python, implementing encryption and symmetric key management.',
+    tags: ['Python', 'Socket Programming', 'RSA Encryption'],
   },
   {
-    title: 'Design System',
-    description: 'Composable UI kit with accessible components and theming.',
-    tags: ['Tailwind CSS', 'A11y', 'Storybook'],
-  },
-  {
-    title: 'Data Visualizer',
-    description: 'Interactive charts and visualizations for large datasets.',
-    tags: ['D3.js', 'Performance'],
-  },
-  {
-    title: 'Portfolio vNext',
+    title: 'Dev Portfolio',
     description: 'This site: modern, responsive, and content‑driven portfolio template.',
-    tags: ['React', 'Tailwind'],
+    tags: ['React', 'Tailwind', 'TypeScript'],
   },
+  {
+    title: 'Simple Virtual Machine',
+    description: 'Implementation of a simple virtual machine for a toy 16-bit processor, with fetch/decode/execute loop, and a CLI that runs programs assembled by the bundled sasm assembler tool.',
+    tags: ['C', 'Linux'],
+  },
+  {
+    title: 'Polynomial Solver',
+    description: 'Program to add, subtract, multiply, and divide polynomials.',
+    tags: ['Python'],
+  }
 ]
 
 export default function Projects() {

@@ -1,15 +1,15 @@
 const skillGroups = [
   {
     title: 'Languages',
-    items: ['TypeScript', 'JavaScript', 'Python', 'C#', 'SQL'],
+    items: ['TypeScript', 'Java', 'Python', 'C', 'C#', 'Shell Scripting', 'CSS','SQL'],
   },
   {
     title: 'Frameworks',
-    items: ['React', 'Node.js', 'Express', 'Vite', 'Jest'],
+    items: ['React', 'React Native', 'Node.js', 'Supabase', 'Jest/GDB/Valgrind'],
   },
   {
-    title: 'Tools',
-    items: ['Git', 'Docker', 'CI/CD', 'Postman', 'VS Code'],
+    title: 'Tools and Concepts',
+    items: ['Git', 'GitHub Actions', 'Jira', 'Agile', 'UML Diagrams'],
   },
 ]
 
