@@ -17,7 +17,7 @@ const projects: Project[] = [
   },
   {
     title: 'Dev Portfolio',
-    description: 'This site: modern, responsive, and content‑driven portfolio template.',
+    description: 'This site: a modern and responsive personal portfolio.',
     tags: ['React', 'Tailwind', 'TypeScript'],
     repo: 'https://github.com/LPmemoh/My-Portfolio-WIP'
     
